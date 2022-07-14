@@ -1,0 +1,28 @@
+img {
+    width: 6rem;
+    border-radius: 10px;
+}
+
+.MoviesResultsContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 97%;
+    height: 70%;
+    box-shadow: 0 0 16px black;
+    overflow-y: scroll;
+    justify-content: center;
+}
+
+.FilmContainer {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    height: max-content;
+    padding: 0.5rem;
+    background: #182838;
+    border-radius: 10px;
+    align-items: center;
+    color: white;
+    margin: 1rem;
+}
